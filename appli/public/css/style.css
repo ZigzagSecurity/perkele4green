@@ -1,0 +1,77 @@
+
+  /* background-image: linear-gradient(#0FCFCF, #98E3E3); */
+
+  /*-  BASE STYLES
+  ----------------------------------------------------------------------*/
+  body {
+    background: #98E3E3;
+  	font: normal 100%/1.5 sans-serif;
+  }
+
+  img {
+  	max-width: 100%;
+  }
+  .ie6 img {
+  	width: 100%;
+  }
+
+  .page {
+  	margin: 25px auto;
+  	width: 90%;
+  }
+
+  #img {
+    position: absolute;
+  	width: 15%;
+    margin-top: -8%;
+    margin-left: -4%;
+  }
+
+  .container {
+    width:90%;
+    position: relative;
+    margin: auto;
+    margin-top: 8em;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 3em;
+    color: white;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+  .buttons {
+    border: none;
+    background: #00A4A4;
+    color: white;
+    padding: 1% 0%;
+    width: 10em;
+    border-radius: 10px;
+    position: absolute;
+  }
+
+  #p {
+    left: 0;
+    margin-top: 10%;
+  }
+  #n {
+    right: 0;
+    margin-top: 10%;
+  }
+  #s {
+    right: 1%;
+    margin-top: -8%;
+  }
+
+
+  #footer {
+    position:absolute;
+    bottom:0;
+    width:90%;
+    text-align: center;
+  	font-size: 0.7em;
+  }

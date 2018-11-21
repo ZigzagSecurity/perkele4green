@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8" />
+  <title> AGIT survey ! </title>
+  <link rel="shortcut icon" type="image/x-icon" href="img/icon.png" /!-->
+
+  <meta name="description" content="AGIT's survey to assess the deposits of computers and office equipment present in companies and more generally
+  on the maturity of companies in France in the use of eco-responsible digital services"/>
+  <meta name="author" content="Quentin LE BLOA & Pierre RISPAL & Alexandre JOURDOIS & Robin DAVID & Arielle TINCHON" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" media="screen, projection" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+</head>
+
+
+
+<body >
+
+	<div class="site">
+
+		<div class="page">
+			<img id="img" src="img/alliance.png" alt="Logo AGIT here" />
+      <input type="button" class="buttons" id="s" name="share" value="Stop here & share !" />
+
+				<div class="container" ng-app="questions" ng-controller="srvCtrl" alt="ceci est une question">
+          <h2>Pick a topic :</h2>
+          <h3><input type="radio" ng-model="myVar" value="dogs">Dogs</h3>
+          <h3><input type="radio" ng-model="myVar" value="tuts">Tutorials</h3>
+          <h3><input type="radio" ng-model="myVar" value="cars">Cars</h3>
+          <input type="button" class="buttons" id="p" name="previous" value="Previous" />
+          <input type="button" class="buttons" id="n" name="next" value="Next" />
+				</div><!-- /end .container -->
+
+
+        <script>
+        var app = angular.module('questions', []);
+        app.controller('srvCtrl', function($scope) {
+            $scope.master = {firstName:"John", lastName:"Doe"};
+            $scope.reset = function() {
+                $scope.user = angular.copy($scope.master);
+            };
+            $scope.reset();
+        });
+        </script>
+
+
+
+
+
+			<div id="footer">
+				<p>Let's go get some pizzas.</p>
+			</div><!-- /end #footer -->
+
+		</div><!-- /end .page -->
+
+	</div><!-- /end .site -->
+
+</body>
+</html>
