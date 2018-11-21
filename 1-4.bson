@@ -5,7 +5,3 @@
 	{ n: 4, q: "Do you develop digital services for internal or external use (sales to customers)?" , t: "single" , a: ["Yes","No"]}
 
 ]
-
-
-
-{ n: , q: "" , t: "" , a: [""]}
