@@ -16,7 +16,6 @@
 	<!-- JS -->
 	<script src="libs/angular.min.js"></script>
 	<script src="libs/angular-route.min.js"></script>
-	<script src="libs/jquery.min.js"></script>
 
 	<!-- ANGULAR CUSTOM -->
 	<script src="js/controllers/MainCtrl.js"></script>
@@ -32,17 +31,33 @@
 
 		<div id="overlay" onclick="off()">
   			<div id="text">	<h4>Welcome to AGIT's survey !</h4>
-				The duration of the questionnaire is estimated at 15 minutes if you are able to answer questions directly.
-				You can return at any time on the questionnaire, answer several times, your previous answers are recorded.
-				In case of modification, only the last answer will be taken into account.
-				You can submit this questionnaire to several people in your organization.
-				All you have to do is simply share the link to the questionnaire.
-				<p><i>(Click anywhere to start !)</i></p>
-			</div>
+							The duration of the questionnaire is estimated at 15 minutes if you are able to answer questions directly.
+							You can return at any time on the questionnaire, answer several times, your previous answers are recorded.
+							In case of modification, only the last answer will be taken into account.
+							You can submit this questionnaire to several people in your organization.
+							All you have to do is simply share the link to the questionnaire.
+							<p><i>(Click anywhere to start !)</i></p>
+		</div>
 		</div>
 
 		<img id="img" src="img/alliance.png" alt="Logo AGIT here" />
-      	<input type="button" class="buttons" id="s" name="share" value="Stop here & share !" />
+      	<input type="button" class="buttons" id="s" name="share" value="Stop here 
+& share !" />
+
+		<div id="myModal" class="modal">
+
+		  <!-- Modal content -->
+		  <div class="modal-content">
+		    <span class="close">&times;</span>
+		    <p>Some text in the Modal..</p>
+		  </div>
+
+		</div>
+
+
+
+
+
 
 
 		<!-- =====================================
