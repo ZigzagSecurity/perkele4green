@@ -780,17 +780,17 @@
   },
   "70": {
     "c": "Energy consumption",
-    "q": "",
-    "n": "",
-    "t": "",
+    "q": "Do you know the consumption of your workstation in kWh per year?",
+    "n": "single",
+    "t": "ct",
     "a": {
-      "": "",
-      "": ""
+      "Yes (please specify how much in kWh / year) ": "",
+      "No": ""
     }
   },
   "71": {
     "c": "Energy consumption",
-    "q": "",
+    "q": "Do you track the energy consumption of your compagny activities?",
     "n": "single",
     "t": "b",
     "a": {
@@ -800,17 +800,17 @@
   },
   "72": {
     "c": "Energy consumption",
-    "q": "",
-    "n": "",
-    "t": "",
+    "q": "Do you know the share of IT and IT equipment in your company's total energy consumption?",
+    "n": "single",
+    "t": "ct",
     "a": {
-      "": "",
-      "": ""
+      "Yes (please specify how much in %)": "",
+      "No": ""
     }
   },
   "73": {
     "c": "Energy consumption",
-    "q": "",
+    "q": "Have you set up a power management system? (automatic shutdown / shutdown of workstations)",
     "n": "single",
     "t": "b",
     "a": {
@@ -819,47 +819,48 @@
       "I don't know": ""
   },
   "74": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Printing",
+    "q": "Do you use copiers from a repackaging industry (second-hand / second-hand)?",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "75": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Printing",
+    "q": "Do you consolidate individual printers to shared printers?",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "76": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Printing",
+    "q": "Have you set up an identification system on printers (to trigger printing)?",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "77": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Printing",
+    "q": "What is the average life of your professional copier / Multi fonction printer ?",
+    "n": "single",
+    "t": "ct",
     "a": {
-      "": "",
-      "": ""
+      " years": "",
+      "Don't want to answer": "",
+      "I don't know": ""
     }
   },
   "78": {
-    "c": "",
+    "c": "Printing",
     "q": "",
     "n": "",
     "t": "",
@@ -869,103 +870,126 @@
     }
   },
   "79": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Printing",
+    "q": "Energy saving (Automatic standby)",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "80": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Printing",
+    "q": "Black and white by default",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "81": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Printing",
+    "q": "Default duplex",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "82": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Printing",
+    "q": "Default draft mode",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "83": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Printing",
+    "sc": "Consumables",
+    "q": "What is the number of pages printed / day / employee? (A4 equivalent)",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Less than 10": "",
+      "From 10 to 20": "",
+      "From 20 to 30": "",
+      "More than 30": "",
+      "I don't know": ""
     }
   },
   "84": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Printing",
+    "sc": "Consumables",
+    "q": "Can you specify the number of cartridges / toners:",
+    "n": "text",
+    "t": "t",
     "a": {
-      "": "",
-      "": ""
+      "Cartridges used a year": "",
+      "Cartridges stored in the average business": "",
+      "Toners used a year": "",
+      "Toners stored in the average business": ""
+
     }
   },
   "85": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Printing",
+    "sc": "Consumables",
+    "q": "Do you organize the separate collection of waste cartridges / toners?",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Yes, to a repackaging industry": "",
+      "Yes, towards a recycling channel (destruction)": "",
+      "No no separate collection device is planned": ""
+
     }
   },
   "86": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Printing",
+    "sc": "Consumables",
+    "q": "Do you prefer the use of recycled paper?",
+    "n": "multi",
+    "t": "c",
     "a": {
-      "": "",
-      "": ""
+      "Yes, our paper is made from virgin paste": "",
+      "Yes, mixed paper": "",
+      "Yes, 100% recycled": "",
+      "I'm not paying attention": ""
+
     }
   },
   "87": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Printing",
+    "sc": "Consumables",
+    "q": "Do you choose certified paper?",
+    "n": "multi",
+    "t": "ct",
     "a": {
-      "": "",
-      "": ""
+      "Yes, FSC": "",
+      "Yes, PEFC": "",
+      "Yes, Blue Angel": "",
+      "Yes, European Label": "",
+      "Yes, other": "",
+      "I'm not paying attention": ""
+
     }
   },
   "88": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Printing",
+    "sc": "Consumables",
+    "q": "Do you organize the separate collection of waste paper for recycling?",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
     }
   }
 }
