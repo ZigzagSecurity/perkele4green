@@ -141,9 +141,9 @@
     "n": "single",
     "t": "ct",
     "a": {
-      "I don't know": "",
-      "I don't want to answer": "",
-      "TB":""
+      "I don't know": "12",
+      "I don't want to answer": "12",
+      "TB":"12"
     }
   },
   "12": {
@@ -152,8 +152,8 @@
     "n": "single",
     "t": "b",
     "a": {
-      "We work with workstation (s), without centralized physical server" :"",
-      "We have (at least) a centralized physical server" : ""
+      "We work with workstation (s), without centralized physical server" :"50",
+      "We have (at least) a centralized physical server" : "13"
     }
   },
   "13": {
@@ -162,8 +162,8 @@
     "n": "single",
     "t": "b",
     "a": {
-      "A closet or a room without any specific system" : "",
-      "A dedicated room" : ""
+      "A closet or a room without any specific system" : "31",
+      "A dedicated room" : "14"
 
     }
   },
@@ -174,9 +174,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Internal" : "",
-      "Host Member of the European Code of Conduct for Datacenters": "",
-      "Non-adhering Host of the European Code of Conduct for Data Centers": ""
+      "Internal" : "15",
+      "Host Member of the European Code of Conduct for Datacenters": "15",
+      "Non-adhering Host of the European Code of Conduct for Data Centers": "15"
     }
   },
   "15": {
@@ -186,9 +186,9 @@
     "n": "single",
     "t": "ct",
     "a": {
-      "I don't know": "",
-      "I don't want to answer": "",
-      "M²":""
+      "I don't know": "16",
+      "I don't want to answer": "16",
+      "M²":"16"
     }
   },
   "16": {
@@ -198,10 +198,10 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Less than 1,6": "",
-      "Between 1,6 and 2,1": "",
-      "More than 2,1": "",
-      "I don't know": ""
+      "Less than 1,6": "17",
+      "Between 1,6 and 2,1": "17",
+      "More than 2,1": "17",
+      "I don't know": "17"
     }
   },
   "17": {
@@ -211,10 +211,10 @@
     "n": "single",
     "t": "b",
     "a": {
-      "100% - 90%": "",
-      "90% - 60%": "",
-      "Less than 60%": "",
-      "I don't know": ""
+      "100% - 90%": "18",
+      "90% - 60%": "18",
+      "Less than 60%": "18",
+      "I don't know": "18"
     }
   },
 
@@ -227,9 +227,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "20",
+      "No": "20",
+      "I don't know": "20"
     }
   },
   "20": {
@@ -239,9 +239,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "21",
+      "No": "21",
+      "I don't know": "21"
     }
   },
   "21": {
@@ -251,9 +251,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "22",
+      "No": "22",
+      "I don't know": "22"
     }
   },
   "22": {
@@ -263,9 +263,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "23",
+      "No": "23",
+      "I don't know": "23"
     }
   },
   "23": {
@@ -275,9 +275,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "24",
+      "No": "24",
+      "I don't know": "24"
     }
   },
   "24": {
@@ -287,9 +287,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "25",
+      "No": "25",
+      "I don't know": "25"
     }
   },
   "25": {
@@ -299,9 +299,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "26",
+      "No": "26",
+      "I don't know": "26"
     }
   },
   "26": {
@@ -311,9 +311,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "27",
+      "No": "27",
+      "I don't know": "27"
     }
   },
   "27": {
@@ -323,9 +323,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "28",
+      "No": "28",
+      "I don't know": "28"
     }
   },
   "28": {
@@ -335,9 +335,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "29",
+      "No": "29",
+      "I don't know": "29"
     }
   },
   "29": {
@@ -347,9 +347,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "30",
+      "No": "30",
+      "I don't know": "30"
     }
   },
   "30": {
@@ -359,9 +359,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "31",
+      "No": "31",
+      "I don't know": "31"
     }
   },
 
@@ -372,9 +372,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "33",
+      "No": "33",
+      "I don't know": "33"
   },
   "33": {
     "c": "IT infrastructure",
@@ -383,9 +383,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "34",
+      "No": "34",
+      "I don't know": "34"
   },
   "34": {
     "c": "IT infrastructure",
@@ -394,9 +394,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "35",
+      "No": "35",
+      "I don't know": "35"
   },
   "35": {
     "c": "IT infrastructure",
@@ -405,9 +405,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "36",
+      "No": "36",
+      "I don't know": "36"
   },
   "36": {
     "c": "IT infrastructure",
@@ -416,9 +416,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "37",
+      "No": "37",
+      "I don't know": "37"
   },
   "37": {
     "c": "IT infrastructure",
@@ -427,9 +427,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "38",
+      "No": "38",
+      "I don't know": "38"
   },
   "38": {
     "c": "IT infrastructure",
@@ -438,9 +438,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "39",
+      "No": "39",
+      "I don't know": "39"
   },
   "39": {
     "c": "IT infrastructure",
@@ -448,9 +448,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't want to answer": ""
+      "Yes": "40",
+      "No": "42",
+      "I don't want to answer": "42"
   },
   "40": {
     "c": "IT infrastructure",
@@ -459,7 +459,7 @@
     "n": "text",
     "t": "t",
     "a": {
-      "text": ""
+      "text": "41"
     }
   },
   "41": {
@@ -469,7 +469,7 @@
     "n": "text",
     "t": "t",
     "a": {
-      "text": ""
+      "text": "42"
     }
   },
   "42": {
@@ -479,10 +479,10 @@
     "n": "single",
     "t": "ct",
     "a": {
-      "In %": "",
-      "In quantity": "",
-      "I do not want to answer": "",
-      "I don't know": ""
+      "In %": "43",
+      "In quantity": "43",
+      "I do not want to answer": "43",
+      "I don't know": "43"
     }
   },
   "43": {
@@ -492,10 +492,10 @@
     "n": "single",
     "t": "ct",
     "a": {
-      "In %": "",
-      "In quantity": "",
-      "I do not want to answer": "",
-      "I don't know": ""
+      "In %": "44",
+      "In quantity": "44",
+      "I do not want to answer": "44",
+      "I don't know": "44"
     }
   },
   "44": {
@@ -504,9 +504,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "45",
+      "No": "45",
+      "I don't know": "45"
   },
   "45": {
     "c": "Management",
@@ -514,9 +514,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "46",
+      "No": "46",
+      "I don't know": "46"
   },
   "46": {
     "c": "Management",
@@ -524,9 +524,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "47",
+      "No": "47",
+      "I don't know": "47"
   },
   "47": {
     "c": "Management",
@@ -534,10 +534,10 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes partially, including only equipment present in the company": "",
-      "Yes totally, including our internal equipment and services hosted by third parties": "",
-      "No": "",
-      "I don't know": ""
+      "Yes partially, including only equipment present in the company": "48",
+      "Yes totally, including our internal equipment and services hosted by third parties": "48",
+      "No": "48",
+      "I don't know": "48"
   },
   "48": {
     "c": "Management",
@@ -545,9 +545,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "49",
+      "No": "49",
+      "I don't know": "49"
   },
   "49": {
     "c": "Management",
@@ -555,9 +555,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "50",
+      "No": "50",
+      "I don't know": "50"
   },
 
 
@@ -568,9 +568,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Used": "",
-      "Not use functional": "",
-      "Neither used nor functional": ""
+      "Used": "52",
+      "Not use functional": "52",
+      "Neither used nor functional": "52"
     }
   },
   "52": {
@@ -580,9 +580,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Used": "",
-      "Not use functional": "",
-      "Neither used nor functional": ""
+      "Used": "53",
+      "Not use functional": "53",
+      "Neither used nor functional": "53"
     }
   },
   "53": {
@@ -592,9 +592,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Used": "",
-      "Not use functional": "",
-      "Neither used nor functional": ""
+      "Used": "54",
+      "Not use functional": "54",
+      "Neither used nor functional": "54"
     }
   },
   "54": {
@@ -604,9 +604,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Used": "",
-      "Not use functional": "",
-      "Neither used nor functional": ""
+      "Used": "55",
+      "Not use functional": "55",
+      "Neither used nor functional": "55"
     }
   },
   "55": {
@@ -616,9 +616,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Used": "",
-      "Not use functional": "",
-      "Neither used nor functional": ""
+      "Used": "56",
+      "Not use functional": "56",
+      "Neither used nor functional": "56"
     }
   },
   "56": {
@@ -628,9 +628,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Used": "",
-      "Not use functional": "",
-      "Neither used nor functional": ""
+      "Used": "57",
+      "Not use functional": "57",
+      "Neither used nor functional": "57"
     }
   },
   "57": {
@@ -640,9 +640,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Used": "",
-      "Not use functional": "",
-      "Neither used nor functional": ""
+      "Used": "58",
+      "Not use functional": "58",
+      "Neither used nor functional": "58"
     }
   },
   "58": {
@@ -652,9 +652,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Used": "",
-      "Not use functional": "",
-      "Neither used nor functional": ""
+      "Used": "59",
+      "Not use functional": "59",
+      "Neither used nor functional": "59"
     }
   },
   "59": {
@@ -664,9 +664,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Used": "",
-      "Not use functional": "",
-      "Neither used nor functional": ""
+      "Used": "60",
+      "Not use functional": "60",
+      "Neither used nor functional": "60"
     }
   },
   "60": {
@@ -676,9 +676,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Used": "",
-      "Not use functional": "",
-      "Neither used nor functional": ""
+      "Used": "61",
+      "Not use functional": "61",
+      "Neither used nor functional": "61"
     }
   },
   "61": {
@@ -688,9 +688,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Used": "",
-      "Not use functional": "",
-      "Neither used nor functional": ""
+      "Used": "62",
+      "Not use functional": "62",
+      "Neither used nor functional": "62"
     }
   },
   "62": {
@@ -699,8 +699,8 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": ""
+      "Yes": "63",
+      "No": "70"
     }
   },
 
@@ -713,9 +713,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Used": "",
-      "Not use functional": "",
-      "Neither used nor functional": ""
+      "Used": "65",
+      "Not use functional": "65",
+      "Neither used nor functional": "65"
     }
   },
   "65": {
@@ -725,9 +725,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Used": "",
-      "Not use functional": "",
-      "Neither used nor functional": ""
+      "Used": "66",
+      "Not use functional": "66",
+      "Neither used nor functional": "66"
     }
   },
   "66": {
@@ -737,9 +737,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Used": "",
-      "Not use functional": "",
-      "Neither used nor functional": ""
+      "Used": "67",
+      "Not use functional": "67",
+      "Neither used nor functional": "67"
     }
   },
   "67": {
@@ -749,9 +749,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Used": "",
-      "Not use functional": "",
-      "Neither used nor functional": ""
+      "Used": "68",
+      "Not use functional": "68",
+      "Neither used nor functional": "68"
     }
   },
   "68": {
@@ -761,9 +761,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Used": "",
-      "Not use functional": "",
-      "Neither used nor functional": ""
+      "Used": "69",
+      "Not use functional": "69",
+      "Neither used nor functional": "69"
     }
   },
   "69": {
@@ -773,9 +773,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Used": "",
-      "Not use functional": "",
-      "Neither used nor functional": ""
+      "Used": "70",
+      "Not use functional": "70",
+      "Neither used nor functional": "70"
     }
   },
   "70": {
@@ -784,8 +784,8 @@
     "n": "single",
     "t": "ct",
     "a": {
-      "Yes (please specify how much in kWh / year) ": "",
-      "No": ""
+      "Yes (please specify how much in kWh / year) ": "71",
+      "No": "71"
     }
   },
   "71": {
@@ -794,9 +794,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "72",
+      "No": "72",
+      "I don't know": "72"
   },
   "72": {
     "c": "Energy consumption",
@@ -804,8 +804,8 @@
     "n": "single",
     "t": "ct",
     "a": {
-      "Yes (please specify how much in %)": "",
-      "No": ""
+      "Yes (please specify how much in %)": "73",
+      "No": "73"
     }
   },
   "73": {
@@ -814,9 +814,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "74",
+      "No": "74",
+      "I don't know": "74"
   },
   "74": {
     "c": "Printing",
@@ -824,9 +824,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "75",
+      "No": "75",
+      "I don't know": "75"
   },
   "75": {
     "c": "Printing",
@@ -834,9 +834,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "76",
+      "No": "76",
+      "I don't know": "76"
   },
   "76": {
     "c": "Printing",
@@ -844,9 +844,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "77",
+      "No": "77",
+      "I don't know": "77"
   },
   "77": {
     "c": "Printing",
@@ -854,60 +854,55 @@
     "n": "single",
     "t": "ct",
     "a": {
-      " years": "",
-      "Don't want to answer": "",
-      "I don't know": ""
+      " years": "78",
+      "Don't want to answer": "78",
+      "I don't know": "78"
     }
   },
-  "78": {
-    "c": "Printing",
-    "q": "",
-    "n": "",
-    "t": "",
-    "a": {
-      "": "",
-      "": ""
-    }
-  },
+
   "79": {
     "c": "Printing",
+    "sc": "Are your printers set by default in eco mode? Especially :",
     "q": "Energy saving (Automatic standby)",
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "80",
+      "No": "80",
+      "I don't know": "80"
   },
   "80": {
     "c": "Printing",
+    "sc": "Are your printers set by default in eco mode? Especially :",
     "q": "Black and white by default",
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "81",
+      "No": "81",
+      "I don't know": "81"
   },
   "81": {
     "c": "Printing",
+    "sc": "Are your printers set by default in eco mode? Especially :",
     "q": "Default duplex",
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "82",
+      "No": "82",
+      "I don't know": "82"
   },
   "82": {
     "c": "Printing",
+    "sc": "Are your printers set by default in eco mode? Especially :",
     "q": "Default draft mode",
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "83",
+      "No": "83",
+      "I don't know": "83"
   },
   "83": {
     "c": "Printing",
@@ -916,11 +911,11 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Less than 10": "",
-      "From 10 to 20": "",
-      "From 20 to 30": "",
-      "More than 30": "",
-      "I don't know": ""
+      "Less than 10": "84",
+      "From 10 to 20": "84",
+      "From 20 to 30": "84",
+      "More than 30": "84",
+      "I don't know": "84"
     }
   },
   "84": {
@@ -930,10 +925,10 @@
     "n": "text",
     "t": "t",
     "a": {
-      "Cartridges used a year": "",
-      "Cartridges stored in the average business": "",
-      "Toners used a year": "",
-      "Toners stored in the average business": ""
+      "Cartridges used a year": "85",
+      "Cartridges stored in the average business": "85",
+      "Toners used a year": "85",
+      "Toners stored in the average business": "85"
 
     }
   },
@@ -944,9 +939,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes, to a repackaging industry": "",
-      "Yes, towards a recycling channel (destruction)": "",
-      "No no separate collection device is planned": ""
+      "Yes, to a repackaging industry": "86",
+      "Yes, towards a recycling channel (destruction)": "86",
+      "No no separate collection device is planned": "86"
 
     }
   },
@@ -957,10 +952,10 @@
     "n": "multi",
     "t": "c",
     "a": {
-      "Yes, our paper is made from virgin paste": "",
-      "Yes, mixed paper": "",
-      "Yes, 100% recycled": "",
-      "I'm not paying attention": ""
+      "Yes, our paper is made from virgin paste": "87",
+      "Yes, mixed paper": "87",
+      "Yes, 100% recycled": "87",
+      "I'm not paying attention": "87"
 
     }
   },
@@ -971,12 +966,12 @@
     "n": "multi",
     "t": "ct",
     "a": {
-      "Yes, FSC": "",
-      "Yes, PEFC": "",
-      "Yes, Blue Angel": "",
-      "Yes, European Label": "",
-      "Yes, other": "",
-      "I'm not paying attention": ""
+      "Yes, FSC": "88",
+      "Yes, PEFC": "88",
+      "Yes, Blue Angel": "88",
+      "Yes, European Label": "88",
+      "Yes, other": "88",
+      "I'm not paying attention": "88"
 
     }
   },
@@ -987,9 +982,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
+      "Yes": "89",
+      "No": "89",
+      "I don't know": "89"
     }
   }
 }
