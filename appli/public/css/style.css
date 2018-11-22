@@ -2,24 +2,24 @@
   ----------------------------------------------------------------------*/
   body {
     background: #98E3E3;
-  	font: normal 100%/1.5 sans-serif;
+    font: normal 100%/1.5 sans-serif;
   }
 
   img {
-  	max-width: 100%;
+    max-width: 100%;
   }
   .ie6 img {
-  	width: 100%;
+    width: 100%;
   }
 
   .page {
-  	margin: 25px auto;
-  	width: 90%;
+    margin: 25px auto;
+    width: 90%;
   }
 
   #img {
     position: absolute;
-  	width: 15%;
+    width: 15%;
     margin-top: -8%;
     margin-left: -4%;
   }
@@ -28,7 +28,6 @@
     width:90%;
     position: relative;
     margin: auto;
-    margin-top: 8em;
     text-align: center;
   }
 
@@ -71,13 +70,23 @@
     font-size: 1.1em;
   }
 
+#btnFin {
+  position: absolute;
+  width: 30%;
+  border-radius: 10px;
+  border-width: 7px;
+  border-color: grey;
+  background: #98E3E3;
+}
+
+
 
   #footer {
     position:absolute;
     bottom:0;
     width:90%;
     text-align: center;
-  	font-size: 0.7em;
+    font-size: 0.7em;
   }
 
 
@@ -112,8 +121,61 @@
 h4 {
   font-size: 2em;
   color: white;
-
 }
+
+h5 {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+h6 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 0;
+    text-shadow: 2px 2px #00A4A4;
+  }
+
+
+/* INPUTS STYLING */
+
+input[type=radio] {
+  float: left;
+}
+
+#rb, #cb, #rtf {
+  margin-top: 2%;
+  margin-left: 25%;
+  text-align: left;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  font-size: 1.3em;
+}
+
+
+input[type=textfield] {
+    width: 25%;
+    border: 2px solid #007D7D;
+    border-radius: 4px;
+    padding: 12px 20px;
+}
+
+input[type=textfield]:focus {
+    border: 3px solid #006363;  
+}
+
+select {
+    width: 50%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    margin-top: 2%;
+}
+
+
+
+
 
 /* MODAL CONTAINER */
 
@@ -138,6 +200,7 @@ h4 {
       padding: 20px;
       border: 1px solid #888;
       width: 80%; 
+      height: 20%;
       text-align: center;
   }
 
