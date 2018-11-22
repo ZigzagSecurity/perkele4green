@@ -1,67 +1,68 @@
-
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
-
 <head>
+	<meta charset="UTF-8">
+	<meta name="description" content="AGIT's survey to assess the deposits of computers and office equipment present in companies and more generally on the maturity of companies in France in the use of eco-responsible digital services"/>
+ 	<meta name="author" content="Quentin LE BLOA & Pierre RISPAL & Alexandre JOURDOIS & Robin DAVID & Arielle TINCHON" />
+	<base href="/">
 
-	<meta charset="utf-8" />
-  <title> AGIT survey ! </title>
-  <link rel="shortcut icon" type="image/x-icon" href="img/icon.png" /!-->
+	<title>AGIT survey ! </title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/icon.png" /!-->
 
-  <meta name="description" content="AGIT's survey to assess the deposits of computers and office equipment present in companies and more generally
-  on the maturity of companies in France in the use of eco-responsible digital services"/>
-  <meta name="author" content="Quentin LE BLOA & Pierre RISPAL & Alexandre JOURDOIS & Robin DAVID & Arielle TINCHON" />
+	<!-- CSS -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/style.css" media="screen, projection"> <!-- custom styles -->
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.css" media="screen, projection" />
+	<!-- JS -->
+	<script src="libs/angular.min.js"></script>
+	<script src="libs/angular-route.min.js"></script>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-
+	<!-- ANGULAR CUSTOM -->
+	<script src="js/controllers/MainCtrl.js"></script>
+	<script src="js/appRoutes.js"></script>
+	<script src="js/app.js"></script>
 </head>
 
+<body ng-app="perkeleApp" >
+
+<div class="site">
+
+	<div class="page">
+
+		<div id="overlay" onclick="off()">
+  			<div id="text">	<h4>Welcome to AGIT's survey !</h4>
+				The duration of the questionnaire is estimated at 15 minutes if you are able to answer questions directly.
+				You can return at any time on the questionnaire, answer several times, your previous answers are recorded.
+				In case of modification, only the last answer will be taken into account.
+				You can submit this questionnaire to several people in your organization.
+				All you have to do is simply share the link to the questionnaire.
+				<p><i>(Click anywhere to start !)</i></p>
+			</div>
+		</div>
+
+		<img id="img" src="img/alliance.png" alt="Logo AGIT here" />
+      	<input type="button" class="buttons" id="s" name="share" value="Stop here & share !" />
 
 
-<body >
-
-	<div class="site">
-
-		<div class="page">
-			<img id="img" src="img/alliance.png" alt="Logo AGIT here" />
-      <input type="button" class="buttons" id="s" name="share" value="Stop here & share !" />
-
-				<div class="container" ng-app="questions" ng-controller="srvCtrl" alt="ceci est une question">
-          <h2>Pick a topic :</h2>
-          <h3><input type="radio" ng-model="myVar" value="dogs">Dogs</h3>
-          <h3><input type="radio" ng-model="myVar" value="tuts">Tutorials</h3>
-          <h3><input type="radio" ng-model="myVar" value="cars">Cars</h3>
-          <input type="button" class="buttons" id="p" name="previous" value="Previous" />
-          <input type="button" class="buttons" id="n" name="next" value="Next" />
-				</div><!-- /end .container -->
+		<!-- =====================================
+		La partie de la page qui change
+		======================================= -->
+		<div ng-view></div>
 
 
         <script>
-        var app = angular.module('questions', []);
-        app.controller('srvCtrl', function($scope) {
-            $scope.master = {firstName:"John", lastName:"Doe"};
-            $scope.reset = function() {
-                $scope.user = angular.copy($scope.master);
-            };
-            $scope.reset();
-        });
-        </script>
+			function off() {
+				document.getElementById("overlay").style.display = "none";
+		}
+		</script>
 
 
+		<div id="footer">
+			<p>Let's go get some pizzas.</p>
+		</div><!-- /end #footer -->
 
+	</div><!-- /end .page -->
 
-
-			<div id="footer">
-				<p>Let's go get some pizzas.</p>
-			</div><!-- /end #footer -->
-
-		</div><!-- /end .page -->
-
-	</div><!-- /end .site -->
-
+</div><!-- /end .site -->
 </body>
 </html>
