@@ -559,208 +559,227 @@
       "No": "",
       "I don't know": ""
   },
-  "50": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
-    "a": {
-      "": "",
-      "": ""
-    }
-  },
+
+
   "51": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Your IT",
+    "sc": "Do you have those equipments in your compagny:",
+    "q": "Fixed stations, workstations",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Used": "",
+      "Not use functional": "",
+      "Neither used nor functional": ""
     }
   },
   "52": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Your IT",
+    "sc": "Do you have those equipments in your compagny:",
+    "q": "Laptops, digital tablets",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Used": "",
+      "Not use functional": "",
+      "Neither used nor functional": ""
     }
   },
   "53": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Your IT",
+    "sc": "Do you have those equipments in your compagny:",
+    "q": "Small printers (<15kg, potentially used by a household)",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Used": "",
+      "Not use functional": "",
+      "Neither used nor functional": ""
     }
   },
   "54": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Your IT",
+    "sc": "Do you have those equipments in your compagny:",
+    "q": "Flat screen monitors",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Used": "",
+      "Not use functional": "",
+      "Neither used nor functional": ""
     }
   },
   "55": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Your IT",
+    "sc": "Do you have those equipments in your compagny:",
+    "q": "Other flat screens (TV, projection screen, digital board ...)",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Used": "",
+      "Not use functional": "",
+      "Neither used nor functional": ""
     }
   },
   "56": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Your IT",
+    "sc": "Do you have those equipments in your compagny:",
+    "q": "CRT monitors (monitors or other)",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Used": "",
+      "Not use functional": "",
+      "Neither used nor functional": ""
     }
   },
   "57": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Your IT",
+    "sc": "Do you have those equipments in your compagny:",
+    "q": "Video projectors",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Used": "",
+      "Not use functional": "",
+      "Neither used nor functional": ""
     }
   },
   "58": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Your IT",
+    "sc": "Do you have those equipments in your compagny:",
+    "q": "Mobile phones",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Used": "",
+      "Not use functional": "",
+      "Neither used nor functional": ""
     }
   },
   "59": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Your IT",
+    "sc": "Do you have those equipments in your compagny:",
+    "q": "Fixed telephones (standalone not connected to such a standard)",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Used": "",
+      "Not use functional": "",
+      "Neither used nor functional": ""
     }
   },
   "60": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Your IT",
+    "sc": "Do you have those equipments in your compagny:",
+    "q": "Digital cameras",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Used": "",
+      "Not use functional": "",
+      "Neither used nor functional": ""
     }
   },
   "61": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Your IT",
+    "sc": "Do you have those equipments in your compagny:",
+    "q": "Hard Disk Devices, Storage, Backup",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Used": "",
+      "Not use functional": "",
+      "Neither used nor functional": ""
     }
   },
   "62": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Your IT",
+    "q": "Do you have other devices in your company? (accesories like mouse, keyboard, etc)",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Yes": "",
+      "No": ""
     }
   },
-  "63": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
-    "a": {
-      "": "",
-      "": ""
-    }
-  },
+
+
+
   "64": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Your IT",
+    "sc": "Regarding other devices, do you have in your company:",
+    "q": "Keyboards",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Used": "",
+      "Not use functional": "",
+      "Neither used nor functional": ""
     }
   },
   "65": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Your IT",
+    "sc": "Regarding other devices, do you have in your company:",
+    "q": "Mouse",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Used": "",
+      "Not use functional": "",
+      "Neither used nor functional": ""
     }
   },
   "66": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Your IT",
+    "sc": "Regarding other devices, do you have in your company:",
+    "q": "Graphic tablets",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Used": "",
+      "Not use functional": "",
+      "Neither used nor functional": ""
     }
   },
   "67": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Your IT",
+    "sc": "Regarding other devices, do you have in your company:",
+    "q": "Scanners",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Used": "",
+      "Not use functional": "",
+      "Neither used nor functional": ""
     }
   },
   "68": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Your IT",
+    "sc": "Regarding other devices, do you have in your company:",
+    "q": "Speakers",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Used": "",
+      "Not use functional": "",
+      "Neither used nor functional": ""
     }
   },
   "69": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Your IT",
+    "sc": "Regarding other devices, do you have in your company:",
+    "q": "Office automation",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
+      "Used": "",
+      "Not use functional": "",
+      "Neither used nor functional": ""
     }
   },
   "70": {
-    "c": "",
+    "c": "Energy consumption",
     "q": "",
     "n": "",
     "t": "",
@@ -770,17 +789,17 @@
     }
   },
   "71": {
-    "c": "",
+    "c": "Energy consumption",
     "q": "",
-    "n": "",
-    "t": "",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "72": {
-    "c": "",
+    "c": "Energy consumption",
     "q": "",
     "n": "",
     "t": "",
@@ -790,14 +809,14 @@
     }
   },
   "73": {
-    "c": "",
+    "c": "Energy consumption",
     "q": "",
-    "n": "",
-    "t": "",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "74": {
     "c": "",
