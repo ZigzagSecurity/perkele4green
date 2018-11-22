@@ -51,6 +51,9 @@
     position: absolute;
     font-size: 1.5em;
   }
+  .buttons:hover {
+    background: #357878;
+  }
 
   #p {
     left: 0;
