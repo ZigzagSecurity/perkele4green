@@ -2,6 +2,7 @@
 //q= question
 //n = nombre de réponse à selectionner
 //t = type de selectionneur html (l : liste, t: textfield, b:button, c: checkbox)
+//combinaison possible (l, b, bt, ct, t, c)
 //a = reponses possible
 //
 {

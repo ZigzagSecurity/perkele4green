@@ -12,17 +12,75 @@ angular.module('MainCtrl', []).controller('MainController', function($scope) {
 
 	$scope.category = $scope.current.c;
 	$scope.question = $scope.current.q;
+	//liste avec les réponse et la question vers la quelle elle pointe
 	$scope.answers = $scope.current.a;
 	$scope.typeSel = $scope.current.t;
 	$scope.numAns = $scope.current.n;
 
+	//mise en place des var pour les ng-if
+	switch (true) {
+    case $scope.typeSel == "l":
+        var l = true;
+        var b = false;
+        var c = false;
+        var t = false;
+        var bt = false;
+        var ct = false;
+        break;
+    case $scope.typeSel == "b":
+        var l = true;
+        var b = false;
+        var c = false;
+        var t = false;
+        var bt = false;
+        var ct = false;
+        break;
+    case $scope.typeSel == "c":
+        var l = true;
+        var b = false;
+        var c = false;
+        var t = false;
+        var bt = false;
+        var ct = false;
+        break;
+    case $scope.typeSel == "t":
+        var l = true;
+        var b = false;
+        var c = false;
+        var t = false;
+        var bt = false;
+        var ct = false;
+        break;
+    case $scope.typeSel == "bt":
+        var l = true;
+        var b = false;
+        var c = false;
+        var t = false;
+        var bt = false;
+        var ct = false;
+        break; 
+    case $scope.typeSel == "ct":
+        var l = true;
+        var b = false;
+        var c = false;
+        var t = false;
+        var bt = false;
+        var ct = false;
+        break;                
+	}
+
+
+	//recuperation de la liste de réponse
+	$scope.listeAnswers = Object.keys($scope.answers);
+
+
+	//function pour quand on passe a la question suivante
 	$scope.next = function () {
 		$scope.cpt +=1;
 		console.log($scope.cpt)
 		console.log("next");
 		console.log($scope.current);
 		console.log($scope.current.q)
-
 	}
 
 	$scope.previous = function() {
