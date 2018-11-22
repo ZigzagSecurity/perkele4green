@@ -49,6 +49,7 @@
     width: 10em;
     border-radius: 10px;
     position: absolute;
+    font-size: 1.5em;
   }
 
   #p {
@@ -62,6 +63,9 @@
   #s {
     right: 1%;
     margin-top: -8%;
+    border-radius: 100px;
+    height: 9.5em;
+    font-size: 1.1em;
   }
 
 
@@ -105,4 +109,34 @@
 h4 {
   font-size: 2em;
   color: white;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px)
+{
+  .container {
+    margin-top: 11em;
+  }
+
+  h2 {
+    font-size: 4em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  #p, #n {
+    margin-top: 13%;
+  }
+
+  #footer {
+    position:relative;
+    width:100%;
+    margin-top: 23.5em;
+    font-size: 0.9em;
+  }
 }
