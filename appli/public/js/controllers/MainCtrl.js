@@ -17,58 +17,64 @@ angular.module('MainCtrl', []).controller('MainController', function($scope) {
 	$scope.typeSel = $scope.current.t;
 	$scope.numAns = $scope.current.n;
 
-	//mise en place des var pour les ng-if
-	switch (true) {
-    case $scope.typeSel == "l":
-        var l = true;
-        var b = false;
-        var c = false;
-        var t = false;
-        var bt = false;
-        var ct = false;
-        break;
-    case $scope.typeSel == "b":
-        var l = true;
-        var b = false;
-        var c = false;
-        var t = false;
-        var bt = false;
-        var ct = false;
-        break;
-    case $scope.typeSel == "c":
-        var l = true;
-        var b = false;
-        var c = false;
-        var t = false;
-        var bt = false;
-        var ct = false;
-        break;
-    case $scope.typeSel == "t":
-        var l = true;
-        var b = false;
-        var c = false;
-        var t = false;
-        var bt = false;
-        var ct = false;
-        break;
-    case $scope.typeSel == "bt":
-        var l = true;
-        var b = false;
-        var c = false;
-        var t = false;
-        var bt = false;
-        var ct = false;
-        break; 
-    case $scope.typeSel == "ct":
-        var l = true;
-        var b = false;
-        var c = false;
-        var t = false;
-        var bt = false;
-        var ct = false;
-        break;                
-	}
 
+
+	//mise en place des var pour les ng-if
+ 	$scope.liste = true;
+    $scope.rb = false;
+    $scope.cb = false;
+    $scope.txtF = false;
+    $scope.rtf = false;
+    $scope.chkTxt = false;
+
+    if ($scope.typeSel == "l") {
+    	$scope.liste = true;
+        $scope.rb = false;
+        $scope.cb = false;
+        $scope.txtF = false;
+        $scope.rtf = false;
+        $scope.chkTxt = false;
+    }
+    else if ($scope.typeSel == "b") {
+    	$scope.liste = false;
+        $scope.rb = true;
+        $scope.cb = false;
+        $scope.txtF = false;
+        $scope.rtf = false;
+        $scope.chkTxt = false;
+    }
+    else if ($scope.typeSel == "c") {
+    	$scope.liste = false;
+        $scope.rb = false;
+        $scope.cb = true;
+        $scope.txtF = false;
+        $scope.rtf = false;
+        $scope.chkTxt = false;
+    }
+    else if ($scope.typeSel == "t") {
+    	$scope.liste = false;
+        $scope.rb = false;
+        $scope.cb = false;
+        $scope.txtF = true;
+        $scope.rtf = false;
+        $scope.chkTxt = false;
+    }
+    else if ($scope.typeSel == "bt") {
+    	$scope.liste = false;
+        $scope.rb = false;
+        $scope.cb = false;
+        $scope.txtF = false;
+        $scope.rtf = true;
+        $scope.chkTxt = false;
+    }
+    else if ($scope.typeSel == "ct") {
+    	$scope.liste = true;
+        $scope.rb = false;
+        $scope.cb = false;
+        $scope.txtF = false;
+        $scope.rtf = false;
+        $scope.chkTxt = false;
+    }
 
 	//recuperation de la liste de réponse
 	$scope.listeAnswers = Object.keys($scope.answers);
