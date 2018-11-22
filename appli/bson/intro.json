@@ -217,21 +217,12 @@
       "I don't know": ""
     }
   },
-  "18": {
-    "c": "Information system",
-    "sc": "Datacenter optimisation process",
-    "q": "Have you led or are you planning actions to optimize your infrastructure?",
-    "n": "single",
-    "t": "b",
-    "a": {
-      "Yes": "",
-      "No": "",
-      "I don't know": ""
-    }
-  },
+
+
+
   "19": {
     "c": "Information system",
-    "sc": "Datacenter optimisation process",
+    "sc": "Datacenter optimisation process : Have you led or are you planning actions to optimize your infrastructure?",
     "q": "Especially: The purchase of non-IT equipment from IT rooms (air conditioning, air treatment, inverters, etc.) according to energy efficiency criteria",
     "n": "single",
     "t": "b",
@@ -243,7 +234,7 @@
   },
   "20": {
     "c": "Information system",
-    "sc": "Datacenter optimisation process",
+    "sc": "Datacenter optimisation process : Have you led or are you planning actions to optimize your infrastructure?",
     "q": "Especially: Implementing the good practices of the <European Code of Conduct for DataCenter>?",
     "n": "single",
     "t": "b",
@@ -255,7 +246,7 @@
   },
   "21": {
     "c": "Information system",
-    "sc": "Datacenter optimisation process",
+    "sc": "Datacenter optimisation process : Have you led or are you planning actions to optimize your infrastructure?",
     "q": "Especially: Data center PUE tracking",
     "n": "single",
     "t": "b",
@@ -267,7 +258,7 @@
   },
   "22": {
     "c": "Information system",
-    "sc": "Datacenter optimisation process",
+    "sc": "Datacenter optimisation process : Have you led or are you planning actions to optimize your infrastructure?",
     "q": "Especially: Regular monitoring of environmental indicators of computer rooms",
     "n": "single",
     "t": "b",
@@ -279,7 +270,7 @@
   },
   "23": {
     "c": "Information system",
-    "sc": "Datacenter optimisation process",
+    "sc": "Datacenter optimisation process : Have you led or are you planning actions to optimize your infrastructure?",
     "q": "Optimization: Environmental impact analysis of the datacenter in life cycle approach",
     "n": "single",
     "t": "b",
@@ -291,7 +282,7 @@
   },
   "24": {
     "c": "Information system",
-    "sc": "Datacenter optimisation process",
+    "sc": "Datacenter optimisation process : Have you led or are you planning actions to optimize your infrastructure?",
     "q": "Especially: Optimizing the architecture and layout of rooms",
     "n": "single",
     "t": "b",
@@ -303,7 +294,7 @@
   },
   "25": {
     "c": "Information system",
-    "sc": "Datacenter optimisation process",
+    "sc": "Datacenter optimisation process : Have you led or are you planning actions to optimize your infrastructure?",
     "q": "Especially: The urbanization of halls in hot / cold aisles",
     "n": "single",
     "t": "b",
@@ -315,7 +306,7 @@
   },
   "26": {
     "c": "Information system",
-    "sc": "Datacenter optimisation process",
+    "sc": "Datacenter optimisation process : Have you led or are you planning actions to optimize your infrastructure?",
     "q": "Especially: Containment of air flows (corridors)",
     "n": "single",
     "t": "b",
@@ -327,7 +318,7 @@
   },
   "27": {
     "c": "Information system",
-    "sc": "Datacenter optimisation process",
+    "sc": "Datacenter optimisation process : Have you led or are you planning actions to optimize your infrastructure?",
     "q": "Especially: The use of natural cooling sources (freecooling)",
     "n": "single",
     "t": "b",
@@ -339,7 +330,7 @@
   },
   "28": {
     "c": "Information system",
-    "sc": "Datacenter optimisation process",
+    "sc": "Datacenter optimisation process : Have you led or are you planning actions to optimize your infrastructure?",
     "q": "Especially: Implementation of a heat recovery system for computer rooms (heating)",
     "n": "single",
     "t": "b",
@@ -351,7 +342,7 @@
   },
   "29": {
     "c": "Information system",
-    "sc": "Datacenter optimisation process",
+    "sc": "Datacenter optimisation process : Have you led or are you planning actions to optimize your infrastructure?",
     "q": "Especially: The set temperature in the cold corridor remains higher than 24°C",
     "n": "single",
     "t": "b",
@@ -363,7 +354,7 @@
   },
   "30": {
     "c": "Information system",
-    "sc": "Datacenter optimisation process",
+    "sc": "Datacenter optimisation process : Have you led or are you planning actions to optimize your infrastructure?",
     "q": "Especially: The choice of a modular datacenter architecture",
     "n": "single",
     "t": "b",
@@ -373,195 +364,200 @@
       "I don't know": ""
     }
   },
-  "31": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
-    "a": {
-      "": "",
-      "": ""
-    }
-  },
+
   "32": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "IT infrastructure",
+    "sc": "Have you led or are you planning actions to optimize your infrastructure?",
+    "q": "Especially: Suspending network equipment",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "33": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "IT infrastructure",
+    "sc": "Have you led or are you planning actions to optimize your infrastructure?",
+    "q": "Especially: Pooling physical equipment",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "34": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "IT infrastructure",
+    "sc": "Have you led or are you planning actions to optimize your infrastructure?",
+    "q": "Especially: Uninstalling unnecessary infrastructure",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "35": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "IT infrastructure",
+    "sc": "Have you led or are you planning actions to optimize your infrastructure?",
+    "q": "Especially: Traceability of material elements (CMDB)",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "36": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "IT infrastructure",
+    "sc": "Have you led or are you planning actions to optimize your infrastructure?",
+    "q": "Especially: The correct sizing of the servers in relation to their use",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "37": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "IT infrastructure",
+    "sc": "Have you led or are you planning actions to optimize your infrastructure?",
+    "q": "Especially: Give priority to ASHRAE 2 compatible equipment",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "38": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "IT infrastructure",
+    "sc": "Have you led or are you planning actions to optimize your infrastructure?",
+    "q": "Especially: A procedure for provisioning and de-provisioning data-processing equipment in datacenters",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "39": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "IT infrastructure",
+    "q": "Do you know the number of physical servers and virtual servers in your company?",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't want to answer": ""
   },
   "40": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "IT infrastructure",
+    "sc": "Number of server",
+    "q": "How many physical servers do you have?",
+    "n": "text",
+    "t": "t",
     "a": {
-      "": "",
-      "": ""
+      "text": ""
     }
   },
   "41": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "IT infrastructure",
+    "sc": "Number of server",
+    "q": "How many virtual servers do you have?",
+    "n": "text",
+    "t": "t",
     "a": {
-      "": "",
-      "": ""
+      "text": ""
     }
   },
   "42": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "IT infrastructure",
+    "sc": "Evolution of the need in server",
+    "q": "What will be the evolution of your number of physical servers for 2019? (in% or quantity)",
+    "n": "single",
+    "t": "ct",
     "a": {
-      "": "",
-      "": ""
+      "In %": "",
+      "In quantity": "",
+      "I do not want to answer": "",
+      "I don't know": ""
     }
   },
   "43": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "IT infrastructure",
+    "sc": "Evolution of the need in server",
+    "q": "What will be the evolution of your number of virtual servers for 2019? (in% or quantity)",
+    "n": "single",
+    "t": "ct",
     "a": {
-      "": "",
-      "": ""
+      "In %": "",
+      "In quantity": "",
+      "I do not want to answer": "",
+      "I don't know": ""
     }
   },
   "44": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Management",
+    "q": "Has your company appointed a Green IT Manager / Digital Manager?",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "45": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Management",
+    "q": "Do you have a responsible digital strategy broken down into an action plan?",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "46": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Management",
+    "q": "Is Green IT a topic integrated into your CSR strategy?",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "47": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Management",
+    "q": "Do you regularly evaluate the environmental impacts of your information system?",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes partially, including only equipment present in the company": "",
+      "Yes totally, including our internal equipment and services hosted by third parties": "",
+      "No": "",
+      "I don't know": ""
   },
   "48": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Management",
+    "q": "Do you have a team of competent referees on the topics of Green IT?",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "49": {
-    "c": "",
-    "q": "",
-    "n": "",
-    "t": "",
+    "c": "Management",
+    "q": "Have you integrated Green IT into your business strategy",
+    "n": "single",
+    "t": "b",
     "a": {
-      "": "",
-      "": ""
-    }
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
   },
   "50": {
     "c": "",
