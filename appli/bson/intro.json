@@ -1,0 +1,956 @@
+//c = categorie
+//q= question
+//n = nombre de réponse à selectionner
+//t = type de selectionneur html (l : liste, t: textfield, b:button, c: checkbox)
+//a = reponses possible
+//
+{
+  "1": {
+    "c": "Your company",
+    "q": "In which sector of activity is your company active? (linked with your APE code)",
+    "n": "single",
+    "t": "l",
+    "a": {
+      "Industry": "2",
+      "Business": "2",
+      "Information and communication": "2",
+      "Other services activity": "2",
+      "Construction ": "2",
+      "Public sector": "2",
+      "Real estate": "2",
+      "Specialized, Scientific and Technical or Administrative and Support Services Activities": "2",
+      "All other activities (financial, agricultural activities ...)": "2"
+    },
+    "s":
+  },
+  "2": {
+    "c": "Your company",
+    "q": "What is the number of employees in your company on 18/12/31 ?",
+    "n": "single",
+    "t": "l",
+    "a": {
+      "0": "3",
+      "1 to 2": "3",
+      "3 to 9": "3",
+      "10 to 49": "3",
+      "50 to 249": "3",
+      "250 to 4999": "3",
+      "Real estate": "3",
+      "More than 5000": "3"
+    }
+  },
+  "3": {
+    "c": "Your company",
+    "q": "What is the turnover of your company in the last fiscal year? (or annual budget for Public sector)",
+    "n": "single",
+    "t": "l",
+    "a": {
+      "0 to 100K €": "4",
+      "100 to 500 K€": "4",
+      "500 to 2 M €": "4",
+      "2 to 10 M€": "4",
+      "10 to 50 M€ ": "4",
+      "Public sector": "4",
+      "Real estate": "4",
+      "Specialized, Scientific and Technical or Administrative and Support Services Activities": "4",
+      "All other activities (financial, agricultural activities ...)": "4"
+    }
+  },
+  "4": {
+    "c": "Your company",
+    "q": "Do you develop digital services for internal or external use (sales to customers)?",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Yes":"5",
+      "No":"12"
+    }
+  },
+  "5": {
+    "c": "Your company",
+    "q": "What is the number of users of your digital services?",
+    "n": "text",
+    "t": "t",
+    "a": {
+      "text":"6"
+    }
+  },
+  "6": {
+    "c": "Your company",
+    "sc": "Ecoconception good practice",
+    "q": "Do you apply the rules and best practices for digital accessibility?",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Yes": "7",
+      "No": "7",
+      "I don't know": "7"
+    }
+  },
+  "7": {
+    "c": "Your company",
+    "sc": "Ecoconception good practice",
+    "q": "Have you optimized the states and printouts in your application tools? (reduced number of pages when printing, ink consumption ...)",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Yes": "8",
+      "No": "8",
+      "I don't know": "8"
+    }
+  },
+  "8": {
+    "c": "Your company",
+    "sc": "Ecoconception good practice",
+    "q": "Do you integrate the principles of the ecodesign of digital services?",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Yes": "9",
+      "No": "9",
+      "I don't know": "9"
+    }
+  },
+  "9": {
+    "c": "Your company",
+    "sc": "Ecoconception good practice",
+    "q": "Do you use a modular application architecture?",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Yes": "10",
+      "No": "10",
+      "I don't know": "10"
+    }
+  },
+  "10": {
+    "c": "Your company",
+    "sc": "Ecoconception good practice",
+    "q": "Do you do a design review at the end of your application's development?",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Yes": "11",
+      "No": "11",
+      "I don't know": "11"
+    }
+  },
+  "11": {
+    "c": "Information system",
+    "q": "What is the overall storage volume of your corporate data (centralized on external hard drives, centralized server, NAS, SAN ...) in Terabytes (TB) useful?",
+    "n": "single",
+    "t": "ct",
+    "a": {
+      "I don't know": "",
+      "I don't want to answer": "",
+      "TB":""
+    }
+  },
+  "12": {
+    "c": "Information system",
+    "q": "Do you have a server or do you only work with one or more workstations?",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "We work with workstation (s), without centralized physical server" :"",
+      "We have (at least) a centralized physical server" : ""
+    }
+  },
+  "13": {
+    "c": "Information system",
+    "q": "Do you have a dedicated room, simple room or cupboard with bay dedicated to your IT infrastructure?",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "A closet or a room without any specific system" : "",
+      "A dedicated room" : ""
+
+    }
+  },
+  "14": {
+    "c": "Information system",
+    "sc": "Server/Computer room",
+    "q": "Is your computer room in house or at a host?",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Internal" : "",
+      "Host Member of the European Code of Conduct for Datacenters": "",
+      "Non-adhering Host of the European Code of Conduct for Data Centers": ""
+    }
+  },
+  "15": {
+    "c": "Information system",
+    "sc": "Server/Computer room",
+    "q": "What is the total area of your computer rooms (excluding technical infrastructure *)? (in m2)",
+    "n": "single",
+    "t": "ct",
+    "a": {
+      "I don't know": "",
+      "I don't want to answer": "",
+      "M²":""
+    }
+  },
+  "16": {
+    "c": "Information system",
+    "sc": "Server/Computer room",
+    "q": "Do you know the PUE * of your Data Center?",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Less than 1,6": "",
+      "Between 1,6 and 2,1": "",
+      "More than 2,1": "",
+      "I don't know": ""
+    }
+  },
+  "17": {
+    "c": "Information system",
+    "sc": "Server/Computer room",
+    "q": "What is the rate of charge or energy use of your computer rooms?",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "100% - 90%": "",
+      "90% - 60%": "",
+      "Less than 60%": "",
+      "I don't know": ""
+    }
+  },
+  "18": {
+    "c": "Information system",
+    "sc": "Datacenter optimisation process",
+    "q": "Have you led or are you planning actions to optimize your infrastructure?",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
+    }
+  },
+  "19": {
+    "c": "Information system",
+    "sc": "Datacenter optimisation process",
+    "q": "Especially: The purchase of non-IT equipment from IT rooms (air conditioning, air treatment, inverters, etc.) according to energy efficiency criteria",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
+    }
+  },
+  "20": {
+    "c": "Information system",
+    "sc": "Datacenter optimisation process",
+    "q": "Especially: Implementing the good practices of the <European Code of Conduct for DataCenter>?",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
+    }
+  },
+  "21": {
+    "c": "Information system",
+    "sc": "Datacenter optimisation process",
+    "q": "Especially: Data center PUE tracking",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
+    }
+  },
+  "22": {
+    "c": "Information system",
+    "sc": "Datacenter optimisation process",
+    "q": "Especially: Regular monitoring of environmental indicators of computer rooms",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
+    }
+  },
+  "23": {
+    "c": "Information system",
+    "sc": "Datacenter optimisation process",
+    "q": "Optimization: Environmental impact analysis of the datacenter in life cycle approach",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
+    }
+  },
+  "24": {
+    "c": "Information system",
+    "sc": "Datacenter optimisation process",
+    "q": "Especially: Optimizing the architecture and layout of rooms",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
+    }
+  },
+  "25": {
+    "c": "Information system",
+    "sc": "Datacenter optimisation process",
+    "q": "Especially: The urbanization of halls in hot / cold aisles",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
+    }
+  },
+  "26": {
+    "c": "Information system",
+    "sc": "Datacenter optimisation process",
+    "q": "Especially: Containment of air flows (corridors)",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
+    }
+  },
+  "27": {
+    "c": "Information system",
+    "sc": "Datacenter optimisation process",
+    "q": "Especially: The use of natural cooling sources (freecooling)",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
+    }
+  },
+  "28": {
+    "c": "Information system",
+    "sc": "Datacenter optimisation process",
+    "q": "Especially: Implementation of a heat recovery system for computer rooms (heating)",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
+    }
+  },
+  "29": {
+    "c": "Information system",
+    "sc": "Datacenter optimisation process",
+    "q": "Especially: The set temperature in the cold corridor remains higher than 24°C",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
+    }
+  },
+  "30": {
+    "c": "Information system",
+    "sc": "Datacenter optimisation process",
+    "q": "Especially: The choice of a modular datacenter architecture",
+    "n": "single",
+    "t": "b",
+    "a": {
+      "Yes": "",
+      "No": "",
+      "I don't know": ""
+    }
+  },
+  "31": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "32": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "33": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "34": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "35": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "36": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "37": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "38": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "39": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "40": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "41": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "42": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "43": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "44": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "45": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "46": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "47": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "48": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "49": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "50": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "51": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "52": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "53": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "54": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "55": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "56": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "57": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "58": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "59": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "60": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "61": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "62": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "63": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "64": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "65": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "66": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "67": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "68": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "69": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "70": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "71": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "72": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "73": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "74": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "75": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "76": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "77": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "78": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "79": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "80": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "81": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "82": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "83": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "84": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "85": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "86": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "87": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  },
+  "88": {
+    "c": "",
+    "q": "",
+    "n": "",
+    "t": "",
+    "a": {
+      "": "",
+      "": ""
+    }
+  }
+}
