@@ -12,11 +12,11 @@
 		<label ng-repeat="myvar in listeAnswers"><h5><input type="checkbox" name="blabla" id="{{$index}}" ng-model="$parent.$parent.blabla" ng-value="myvar"> {{myvar}}</h5></label>
 	</div>
 
-	<div ng-if="txtF">
+	<div ng-if="tf">
 		<label><h5><input type="text" name="blabla" id="{{$index}}" ng-model="$parent.blabla" ng-value=""></h5></label>
 	</div>
 
-	<div ng-if="chkTxt">
+	<div ng-if="ctf">
 		<h5 ng-repeat="myvar in listeAnswers"><input type="checkbox" name="cb" id="{{$index}}" ng-model="blabla" ng-value="myvar"><label for="{{$index}}"> {{myvar}}</label></h5>
 	</div>
 
@@ -25,7 +25,7 @@
 		<h5 ng-repeat="myvar in listeAnswers"><input type="radio" name="rtf" id="{{$index}}" ng-model="RTF" ng-value="myvar"><label for="{{$index}}"> <input type="textfield" name="tf" id="{{$index}}" ng-model="TF" ng-value="myvar"><label for="{{$index}}"> </label></h5>
 	</div>
 
-	<div ng-if="liste">
+	<div ng-if="l">
 	 	<select ng-model="$parent.blabla">
 	       <option 
 	           ng-repeat="myvar in listeAnswers" value="{{myvar}}">
