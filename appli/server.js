@@ -5,6 +5,7 @@ var mongoose       = require('mongoose');
 var bodyParser     = require('body-parser');
 var methodOverride = require('method-override');
 var socketio       = require('socket.io')
+const fs = require('fs');
 
 // configuration ===========================================
 	
@@ -22,9 +23,17 @@ app.use(bodyParser.urlencoded({ extended: true })); // parse application/x-www-f
 app.use(methodOverride('X-HTTP-Method-Override')); // override with the X-HTTP-Method-Override header in the request. simulate DELETE/PUT
 app.use(express.static(__dirname + '/public')); // set the static files location /public/img will be /img for users
 
-//app.get('/',function(req,res){
-//    res.sendFile(path.normalize(__dirname + 'bson/data.json'))
-//})
+app.post('/api',function(req,res){
+	console.log(req.body)
+	const content = JSON.stringify(req.body);
+	var rnd = Math.random() * (100 - 0) + 0;
+	fs.writeFile("/home/perkele/perkele4green/appli/jsondatabase/"+rnd, content, function(err) {
+	    if(err) {
+	        return console.log(err);
+	    }
+	    console.log("The file was saved!");
+	}); 
+})
 
 // routes ==================================================
 require('./app/routes')(app); // pass our application into our routes
