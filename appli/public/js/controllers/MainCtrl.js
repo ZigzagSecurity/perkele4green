@@ -169,6 +169,7 @@ angular.module('MainCtrl', []).controller('MainController', function($scope,$htt
 		data: data,
 		headers: {'Content-Type': 'application/json'}
 		}).success(
+			console.log("success")
 			$scope.texte="test"
 		);
 
