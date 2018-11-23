@@ -134,7 +134,7 @@ angular.module('MainCtrl', []).controller('MainController', function($scope,$htt
 
 /* MODAL CONTAINER */
 	$scope.go = function(){
-		console.log("share url");
+		console.log("share urll");
 		// Get the modal
 		var modal = document.getElementById('myModal');
 
@@ -169,7 +169,6 @@ angular.module('MainCtrl', []).controller('MainController', function($scope,$htt
 		data: data,
 		headers: {'Content-Type': 'application/json'}
 		}).success(
-			console.log("success")
 			$scope.texte="test"
 		);
 
