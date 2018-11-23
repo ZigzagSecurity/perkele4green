@@ -26,67 +26,31 @@ angular.module('MainCtrl', []).controller('MainController', function($scope) {
 		//mise en place des var pour les ng-if
  		$scope.l = false;
     	$scope.rb = false;
+    	$scope.t = false;
     	$scope.cb = false;
-    	$scope.tf = false;
     	$scope.rtf = false;
     	$scope.ctf = false;
 
     	if ($scope.typeSel == "l") {
     		$scope.l = true;
-      		$scope.rb = false;
-      	  	$scope.cb = false;
-        	$scope.tf = false;
-        	$scope.rtf = false;
-        	$scope.ctf = false;
     	}
     	else if ($scope.typeSel == "rb") {
-    		$scope.l = false;
        	 	$scope.rb = true;
-        	$scope.cb = false;
-        	$scope.tf = false;
-        	$scope.rtf = false;
-        	$scope.ctf = false;
+    	}
+    	else if ($scope.typeSel == "t") {
+       	 	$scope.t = true;
+
     	}
     	else if ($scope.typeSel == "cb") {
-    		$scope.l = false;
-        	$scope.rb = false;
         	$scope.cb = true;
-        	$scope.tf = false;
-        	$scope.rtf = false;
-        	$scope.ctf = false;
-    	}
-    	else if ($scope.typeSel == "tf") {
-    		$scope.l = false;
-        	$scope.rb = false;
-        	$scope.cb = false;
-        	$scope.tf = true;
-        	$scope.rtf = false;
-        	$scope.ctf = false;
     	}
     	else if ($scope.typeSel == "rtf") {
-    		$scope.l = false;
-        	$scope.rb = false;
-        	$scope.cb = false;
-        	$scope.tf = false;
         	$scope.rtf = true;
-        	$scope.ctf = false;
     	}
     	else if ($scope.typeSel == "ctf") {
-    		$scope.l = false;
-        	$scope.rb = false;
-        	$scope.cb = false;
-        	$scope.tf = false;
-        	$scope.rtf = false;
         	$scope.ctf = true;
     	}
 
-    	if ($scope.answers == "text") {
-
-    	}
-    	else {
-    		//recuperation de la liste de réponse
-			$scope.listeAnswers = Object.keys($scope.answers);
-    	}
     	//recuperation de la liste de réponse
 			$scope.listeAnswers = Object.keys($scope.answers);
     	
@@ -112,10 +76,17 @@ angular.module('MainCtrl', []).controller('MainController', function($scope) {
 		//recuperation des données selectionnées
 		console.log($scope.blabla);
 		//sauvegarde de la donnée dans un fichier json
-		$scope.storage += ""+$scope.blabla;
+		$scope.storage += [$scope.numQuestion, $scope.blabla];
+		console.log($scope.storage);
 
-		//recuperer la question suivante
-		ChangQuestion($scope.answers[$scope.blabla]);
+		if ($scope.t == true) {
+
+			ChangQuestion($scope.answers["text"]);
+		}
+		else {
+			//recuperer la question suivante
+			ChangQuestion($scope.answers[$scope.blabla]);	
+		}	
 	}
 
 	$scope.previous = function() {

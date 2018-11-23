@@ -12,8 +12,8 @@
 		<label ng-repeat="myvar in listeAnswers"><h5><input type="checkbox" name="blabla" id="{{$index}}" ng-model="$parent.$parent.blabla" ng-value="myvar"> {{myvar}}</h5></label>
 	</div>
 
-	<div ng-if="tf">
-		<label><h5><input type="text" name="blabla" id="{{$index}}" ng-model="$parent.blabla" ng-value=""></h5></label>
+	<div ng-if="t">
+		<label><h5><input type="text" name="blabla" id="{{$index}}" ng-model="$parent.blabla" ng-value="" placeholder="Type your text"></h5></label>
 	</div>
 
 	<div ng-if="ctf">
