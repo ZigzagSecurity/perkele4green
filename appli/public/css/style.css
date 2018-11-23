@@ -220,20 +220,21 @@ select {
 
 /* MEDIA QUERIES */
 
-@media screen and (min-width: 768px)
+@media screen and (min-width: 1500px)
 {
   #img {
     width: 18%;
-    margin-top: -7%;
+    margin-top: -3%;
     margin-left: -3%;
   }
 
   #s {
     right: -8%;
+    margin-top: -3%;
   }
 
   .container {
-    margin-top: 8em;
+    margin-top: -2em;
   }
 
   h2 {
@@ -242,20 +243,21 @@ select {
 
   h3 {
     font-size: 1.5em;
+    padding-top: -10em;
   }
 
   h6 {
-    padding-top: 2.5em; 
+    padding-top: 0.5em; 
   }
 
   #p, #n {
-    margin-top: 22%;
+    margin-top: 15%;
   }
 
   #footer {
     position:relative;
     width:100%;
-    margin-top: 36em;
+    margin-top: 22em;
     font-size: 0.9em;
   }
 
