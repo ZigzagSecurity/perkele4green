@@ -26,7 +26,7 @@ app.use(express.static(__dirname + '/public')); // set the static files location
 app.post('/api',function(req,res){
 	console.log(req.body)
 	const content = JSON.stringify(req.body);
-	var rnd = Math.random() * (100 - 0) + 0;
+	var rnd = "test"
 	fs.writeFile("/home/perkele/perkele4green/appli/jsondatabase/"+rnd, content, function(err) {
 	    if(err) {
 	        return console.log(err);
