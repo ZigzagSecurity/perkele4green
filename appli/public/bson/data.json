@@ -943,7 +943,7 @@
     "sc": "Consumables",
     "q": "Can you specify the number of cartridges / toners:",
     "n": "text",
-    "t": "t",
+    "t": "special5",
     "a": {
       "Cartridges used a year": "85",
       "Cartridges stored in the average business": "85",
