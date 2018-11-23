@@ -38,7 +38,6 @@ h2 {
 
 h3 {
   font-size: 1em;
-  padding-top: 3%;
 }
 
 .buttons {
@@ -132,7 +131,6 @@ h5 {
 h6 {
   font-size: 3em;
   color: white;
-  padding-top: 2.5em; 
   text-shadow: 2px 2px #00A4A4;
 }
 
@@ -142,7 +140,7 @@ h6 {
 input[type=radio] {
   position: relative;
   margin: auto;
-  margin-top: 2%;
+  margin-top: 1%;
   text-align: left;
 }
 
@@ -195,7 +193,7 @@ select {
   /* Modal Content/Box */
   .modal-content {
       background-color: #fefefe;
-      margin: 30% auto; 
+      margin: 20% auto; 
       border: 1px solid #888;
       width: 60%; 
       text-align: center;
@@ -235,7 +233,7 @@ select {
   }
 
   .container {
-    margin-top: 11em;
+    margin-top: 8em;
   }
 
   h2 {
@@ -246,14 +244,25 @@ select {
     font-size: 1.5em;
   }
 
+  h6 {
+    padding-top: 2.5em; 
+  }
+
   #p, #n {
-    margin-top: 13%;
+    margin-top: 22%;
   }
 
   #footer {
     position:relative;
     width:100%;
-    margin-top: 23.5em;
+    margin-top: 36em;
     font-size: 0.9em;
   }
+
+  .modal-content {
+    margin: 30% auto; 
+  }
+
+
+
 }
