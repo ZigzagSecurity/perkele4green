@@ -4,29 +4,25 @@
   <h6>-- {{category}} --</h6>
  	<h3>{{question}}</h3>
 
-	<div ng-if="rb" id="rb">
-		<label ng-repeat="myvar in listeAnswers"><h5><input type="radio" name="blabla" id="{{$index}}" ng-model="$parent.$parent.blabla" ng-value="myvar"> {{myvar}}</h5></label>
+	<div *ngIf="rb" id="rb">
+		<h5 ng-repeat="myvar in listeAnswers"><input type="radio" name="rb" id="{{$index}}" ng-model="RB" ng-value="myvar"><label for="{{$index}}"> {{myvar}}</label></h5>
 	</div>
 
-	<div ng-if="cb" id="cb">
-		<label ng-repeat="myvar in listeAnswers"><h5><input type="checkbox" name="blabla" id="{{$index}}" ng-model="$parent.$parent.blabla" ng-value="myvar"> {{myvar}}</h5></label>
+	<div *ngIf="cb" id="cb">
+		<h5 ng-repeat="myvar in listeAnswers"><input type="checkbox" name="cb" id="{{$index}}" ng-model="CB" ng-value="myvar"><label for="{{$index}}"> {{myvar}}</label></h5>
 	</div>
 
-	<div ng-if="t">
-		<label><h5><input type="text" name="blabla" id="{{$index}}" ng-model="$parent.blabla" ng-value="" placeholder="Type your text"></h5></label>
+	<div *ngIf="chkTxt">
+		<h5 ng-repeat="myvar in listeAnswers"><input type="checkbox" name="cb" id="{{$index}}" ng-model="CB" ng-value="myvar"><label for="{{$index}}"> {{myvar}}</label></h5>
 	</div>
 
-	<div ng-if="ctf">
-		<h5 ng-repeat="myvar in listeAnswers"><input type="checkbox" name="cb" id="{{$index}}" ng-model="blabla" ng-value="myvar"><label for="{{$index}}"> {{myvar}}</label></h5>
-	</div>
-
-	<div ng-if="rtf" id="rtf">
+	<div *ngIf="rtf" id="rtf">
 		<h5 ng-repeat="myvar in listeAnswers"><input type="radio" name="rtf" id="{{$index}}" ng-model="RTF" ng-value="myvar"><label for="{{$index}}"> {{myvar}}</label></h5>
 		<h5 ng-repeat="myvar in listeAnswers"><input type="radio" name="rtf" id="{{$index}}" ng-model="RTF" ng-value="myvar"><label for="{{$index}}"> <input type="textfield" name="tf" id="{{$index}}" ng-model="TF" ng-value="myvar"><label for="{{$index}}"> </label></h5>
 	</div>
 
-	<div ng-if="l">
-	 	<select ng-model="$parent.blabla">
+	<div *ngIf="liste">
+	 	<select ng-model="blabla">
 	       <option 
 	           ng-repeat="myvar in listeAnswers" value="{{myvar}}">
 	           {{myvar}}
@@ -36,10 +32,6 @@
 
 
 
-  	<input ng-click="previous()" type="button" class="buttons" id="p" name="previous" value="Previous" />
-  	<input ng-click="next()" type="button" class="buttons" id="n" name="next" value="Next" />
-
- 	 <div ng-if="theEnd">
-		<button id="btnFin" ng-click="sendData()">Save the data in the database</button>
-	</div>
+  <input ng-click="previous()" type="button" class="buttons" id="p" name="previous" value="Previous" />
+  <input ng-click="next()" type="button" class="buttons" id="n" name="next" value="Next" />
 </div><!-- /end .container -->
