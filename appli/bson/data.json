@@ -25,7 +25,7 @@
   },
   "2": {
     "c": "Your company",
-    "q": "What is the number of employees in your company on 18/12/31 ?",
+    "q": "What is the number of employees in your company on 18/12/32 ?",
     "n": "single",
     "t": "l",
     "a": {
@@ -162,7 +162,7 @@
     "n": "single",
     "t": "b",
     "a": {
-      "A closet or a room without any specific system" : "31",
+      "A closet or a room without any specific system" : "32",
       "A dedicated room" : "14"
     }
   },
@@ -358,9 +358,9 @@
     "n": "single",
     "t": "b",
     "a": {
-      "Yes": "31",
-      "No": "31",
-      "I don't know": "31"
+      "Yes": "32",
+      "No": "32",
+      "I don't know": "32"
     }
   },
 
