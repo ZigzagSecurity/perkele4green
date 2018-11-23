@@ -4,11 +4,11 @@
   <h6>-- {{category}} --</h6>
  	<h3>{{question}}</h3>
 
-	<div ng-if="rb">
+	<div ng-if="rb" id="rb">
 		<label ng-repeat="myvar in listeAnswers"><h5><input type="radio" name="blabla" id="{{$index}}" ng-model="$parent.$parent.blabla" ng-value="myvar"> {{myvar}}</h5></label>
 	</div>
 
-	<div ng-if="cb">
+	<div ng-if="cb" id="cb">
 		<label ng-repeat="myvar in listeAnswers"><h5><input type="checkbox" name="blabla" id="{{$index}}" ng-model="$parent.$parent.blabla" ng-value="myvar"> {{myvar}}</h5></label>
 	</div>
 
