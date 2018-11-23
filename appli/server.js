@@ -27,7 +27,7 @@ app.post('/api',function(req,res){
 	console.log(req.body)
 	const content = JSON.stringify(req.body);
 	var rnd = "test"
-	fs.writeFile("/home/perkele/perkele4green/appli/jsondatabase/"+rnd, content, function(err) {
+	fs.writeFile("test.json", content, function(err) {
 	    if(err) {
 	        return console.log(err);
 	    }

@@ -86,7 +86,7 @@ angular.module('MainCtrl', []).controller('MainController', function($scope,$htt
 		console.log("sending data")
 		$http({
 		  method: 'POST',
-		  url: 'localhost:8080/api',
+		  url: '/api',
 		  headers: {
 		   'Content-Type': undefined
 		 },
