@@ -6,7 +6,7 @@ angular.module('MainCtrl', []).controller('MainController', function($scope) {
 	$scope.theEnd = false;
 	$scope.storage= [];
 
-	function ChangQuestion (numQuestion) {
+	function ChangQuestion (numQuestion,pAnswer=null) {
 		$scope.numQuestion = numQuestion;
 		$scope.hist = ""+$scope.numQuestion;
 
@@ -65,6 +65,9 @@ angular.module('MainCtrl', []).controller('MainController', function($scope) {
 
     	//recuperation de la liste de réponse
 		$scope.listeAnswers = Object.keys($scope.answers);
+		if(pAnswer){
+			$scope.blabla=pAnswer
+		}
     	
 	}
 
@@ -104,10 +107,12 @@ angular.module('MainCtrl', []).controller('MainController', function($scope) {
 
 	$scope.previous = function() {
 		$scope.cpt -=1;
-		console.log($scope.cpt);
-		console.log("previous");
-		console.log($scope.current);
-		console.log($scope.current.q);
+		//console.log($scope.cpt);
+		//console.log("previous");
+		//console.log($scope.current);
+		//console.log($scope.current.q);
+		var lastElement = $scope.storage.pop()
+		ChangQuestion(lastElement.q,lastElement.a)
 	}
 
 
