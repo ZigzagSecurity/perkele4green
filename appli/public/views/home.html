@@ -4,11 +4,11 @@
   <h6>-- {{category}} --</h6>
  	<h3>{{question}}</h3>
 
-	<div ng-if="rb">
+	<div ng-if="rb" id="rb">
 		<label ng-repeat="myvar in listeAnswers"><h5><input type="radio" name="blabla" id="{{$index}}" ng-model="$parent.$parent.blabla" ng-value="myvar"> {{myvar}}</h5></label>
 	</div>
 
-	<div ng-if="cb">
+	<div ng-if="cb" id="cb">
 		<label ng-repeat="myvar in listeAnswers"><h5><input type="checkbox" name="blabla" id="{{$index}}" ng-model="$parent.$parent.blabla" ng-value="myvar"> {{myvar}}</h5></label>
 	</div>
 
@@ -16,7 +16,7 @@
 		<label><h5><input type="text" name="blabla" id="{{$index}}" ng-model="$parent.blabla" ng-value="" placeholder="Type your text"></h5></label>
 	</div>
 
-	<div ng-if="ctf">
+	<div ng-if="ctf" id="ctf">
 		<h5 ng-repeat="myvar in listeAnswers"><input type="checkbox" name="cb" id="{{$index}}" ng-model="blabla" ng-value="myvar"><label for="{{$index}}"> {{myvar}}</label></h5>
 	</div>
 
@@ -25,7 +25,19 @@
 		<h5 ng-repeat="myvar in listeAnswers"><input type="radio" name="rtf" id="{{$index}}" ng-model="RTF" ng-value="myvar"><label for="{{$index}}"> <input type="textfield" name="tf" id="{{$index}}" ng-model="TF" ng-value="myvar"><label for="{{$index}}"> </label></h5>
 	</div>
 
-	<div ng-if="l">
+	<div ng-if="spe2" id="spe2">
+		<input type="radio" name="rtf" id="1" ng-model="blabla" ng-value="myvar"><label for="{{$index}}"> {{listeAnswers[0]}}</label></h5>
+		<input type="radio" name="rtf" id="2" ng-model="blabla" ng-value="myvar"><label for="{{$index}}"> {{listeAnswers[1]}}</label></h5>
+		<input type="radio" name="rtf" id="3" ng-model="blabla" ng-value="myvar"><label for="{{$index}}"> <input type="text" name="blabla" id="{{$index}}" ng-model="$parent.blabla" ng-value="" placeholder="The amount is in TB"></label></h5>
+	</div>
+
+	<div ng-if="spe1" id="spe1">
+		<input type="radio" name="rtf" id="1" ng-model="blabla" ng-value="myvar"><label for="{{$index}}"> <input type="textfield" name="blabla" id="{{$index}}" ng-model="$parent.blabla" ng-value="" placeholder="Please type your answer..."></label></h5>
+		<input type="radio" name="rtf" id="2" ng-model="blabla" ng-value="myvar"><label for="{{$index}}"> {{listeAnswers[1]}}</label></h5>
+		
+	</div>
+
+	<div ng-if="l" id="l">
 	 	<select ng-model="$parent.blabla">
 	       <option 
 	           ng-repeat="myvar in listeAnswers" value="{{myvar}}">

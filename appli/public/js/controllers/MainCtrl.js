@@ -39,7 +39,6 @@ angular.module('MainCtrl', []).controller('MainController', function($scope) {
     	}
     	else if ($scope.typeSel == "t") {
        	 	$scope.t = true;
-
     	}
     	else if ($scope.typeSel == "cb") {
         	$scope.cb = true;
@@ -50,9 +49,15 @@ angular.module('MainCtrl', []).controller('MainController', function($scope) {
     	else if ($scope.typeSel == "ctf") {
         	$scope.ctf = true;
     	}
+    	else if ($scope.typeSel == "special2") {
+    		$scope.spe2 = true;
+    	}
+    	else if ($scope.typeSel == "special1") {
+    		$scope.spe1 = true;
+    	}
 
     	//recuperation de la liste de réponse
-			$scope.listeAnswers = Object.keys($scope.answers);
+		$scope.listeAnswers = Object.keys($scope.answers);
     	
 	}
 
