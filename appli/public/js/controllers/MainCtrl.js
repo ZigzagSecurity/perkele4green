@@ -220,20 +220,5 @@ angular.module('MainCtrl', []).controller('MainController', function($scope,$htt
 		        modal.style.display = "none";
 		    }
 		}
-<<<<<<< HEAD
-=======
-		
-		var data= $scope.storage
-		console.log(data)
-		$http({
-		method: 'POST',
-		url: '/api',
-		data: data,
-		headers: {'Content-Type': 'application/json'}
-		}).success(
-			$scope.texte="test"
-		);
-
->>>>>>> 490436c3657d04d16bfd6ac2038c66482e0b9971
 	}
 });
