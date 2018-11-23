@@ -1,74 +1,75 @@
-  /*-  BASE STYLES
-  ----------------------------------------------------------------------*/
-  body {
-    background: #98E3E3;
-    font: normal 100%/1.5 sans-serif;
-  }
+/*-  BASE STYLES
+----------------------------------------------------------------------*/
+body {
+  background: #98E3E3;
+  font: normal 100%/1.5 sans-serif;
+}
 
-  img {
-    max-width: 100%;
-  }
-  .ie6 img {
-    width: 100%;
-  }
+img {
+  max-width: 100%;
+}
+.ie6 img {
+  width: 100%;
+}
 
-  .page {
-    margin: 25px auto;
-    width: 90%;
-  }
+.page {
+  margin: 25px auto;
+  width: 90%;
+}
 
-  #img {
-    position: absolute;
-    width: 15%;
-    margin-top: -8%;
-    margin-left: -4%;
-  }
+#img {
+  position: absolute;
+  width: 15%;
+  margin-top: -8%;
+  margin-left: -4%;
+}
 
-  .container {
-    width:90%;
-    position: relative;
-    margin: auto;
-    text-align: center;
-  }
+.container {
+  width:90%;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
 
-  h2 {
-    font-size: 3em;
-    color: white;
-  }
+h2 {
+  font-size: 3em;
+  color: white;
+}
 
-  h3 {
-    font-size: 1em;
-  }
+h3 {
+  font-size: 1em;
+  padding-top: 3%;
+}
 
-  .buttons {
-    border: none;
-    background: #00A4A4;
-    color: white;
-    padding: 1% 0%;
-    width: 10em;
-    border-radius: 10px;
-    position: absolute;
-    font-size: 1.5em;
-  }
-  .buttons:hover {
-    background: #357878;
-  }
+.buttons {
+  border: none;
+  background: #00A4A4;
+  color: white;
+  padding: 1% 0%;
+  width: 10em;
+  border-radius: 10px;
+  position: absolute;
+  font-size: 1.5em;
+}
+.buttons:hover {
+  background: #357878;
+}
 
-  #p {
-    left: 0;
-    margin-top: 10%;
-  }
-  #n {
-    right: 0;
-    margin-top: 10%;
-  }
-  #s {
-    right: 1%;
-    margin-top: -8%;
-    border-radius: 100px;
-    height: 9.5em;
-    font-size: 1.1em;
-  }
+#p {
+  left: 0;
+  margin-top: 15%;
+}
+#n {
+  right: 0;
+  margin-top: 15%;
+}
+#s {
+  right: 1%;
+  margin-top: -8%;
+  border-radius: 100px;
+  height: 9.5em;
+  font-size: 1.1em;
+}
 
 #btnFin {
   position: absolute;
@@ -81,41 +82,41 @@
 
 
 
-  #footer {
-    position:absolute;
-    bottom:0;
-    width:90%;
+#footer {
+  position:absolute;
+  bottom:0;
+  width:90%;
+  text-align: center;
+  font-size: 0.7em;
+}
+
+
+
+
+
+#overlay {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 2;
+    cursor: pointer;
     text-align: center;
-    font-size: 0.7em;
-  }
+}
 
-
-
-
-
-  #overlay {
-      position: fixed;
-      display: block;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: rgba(0,0,0,0.9);
-      z-index: 2;
-      cursor: pointer;
-      text-align: center;
-  }
-
-  #text{
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      font-size: 1.3em;
-      color: white;
-      transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1.3em;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
 }
 
 h4 {
@@ -129,27 +130,24 @@ h5 {
 }
 
 h6 {
-    font-size: 3em;
-    color: white;
-    margin-bottom: 0;
-    text-shadow: 2px 2px #00A4A4;
-  }
+  font-size: 3em;
+  color: white;
+  padding-top: 2.5em; 
+  text-shadow: 2px 2px #00A4A4;
+}
 
 
 /* INPUTS STYLING */
 
 input[type=radio] {
-  float: left;
+  position: relative;
+  margin: auto;
+  margin-top: 2%;
+  text-align: left;
 }
 
 #rb, #cb, #rtf {
-  margin-top: 2%;
-  margin-left: 25%;
-  text-align: left;
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 
@@ -167,6 +165,7 @@ input[type=textfield]:focus {
 select {
     width: 50%;
     padding: 12px 20px;
+    font-size: 1.5em;
     border: none;
     border-radius: 4px;
     background-color: #f1f1f1;
@@ -190,17 +189,15 @@ select {
       height: 100%; 
       overflow: auto; 
       background-color: rgb(0,0,0); 
-      background-color: rgba(0,0,0,0.4); 
+      background-color: rgba(0,0,0,0.7); 
   }
 
   /* Modal Content/Box */
   .modal-content {
       background-color: #fefefe;
-      margin: 15% auto; 
-      padding: 20px;
+      margin: 30% auto; 
       border: 1px solid #888;
-      width: 80%; 
-      height: 20%;
+      width: 60%; 
       text-align: center;
   }
 
